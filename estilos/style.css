@@ -37,6 +37,7 @@ section#login {
 }
 
 section#login > div#imagem {
+    display: block;
     background: #008a00 url(../imagens/pexels-sora-shimazaki-5935791.jpg ) no-repeat;
     background-size: cover;
     background-position: center top;
