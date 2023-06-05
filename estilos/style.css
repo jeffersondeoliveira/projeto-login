@@ -1,1 +1,46 @@
 @charset "UTF-8 ";
+
+* {
+    font-family: 'Courier New', Courier, monospace;
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body, html {
+    background-color: #008a00;
+    height: 100vh;
+    width: 100vw;
+}
+
+main {
+    position: relative;
+    width: 100vw;
+    height: 100vh;
+}
+
+section#login {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    overflow: hidden;
+
+    background-color: white;
+    width: 250px;
+    height: 500px;
+    border-radius: 20px;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.726);
+}
+
+section#login > div#imagem {
+    background: #008a00 url(../imagens/pexels-sora-shimazaki-5935791.jpg ) no-repeat;
+    background-size: cover;
+    background-position: center top;
+    height: 260px;
+}
+
+section#login > div#formulario {
+    display: block;
+    padding: 10px;
+}
